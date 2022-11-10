@@ -12,7 +12,7 @@ class TreeNode
 public:
     int *data;
     int poci;
-    int n;
+    int n;   // cantidad de niveles
     T *content;
     bool leaf;
 

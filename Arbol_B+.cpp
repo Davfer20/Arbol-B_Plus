@@ -2,7 +2,6 @@
  * C++ Program to Implement B+ Tree
  */
 #include <stdio.h>
-#include <conio.h>
 #include <iostream>
 using namespace std;
 struct Arbol_B
@@ -196,5 +195,4 @@ int main()
     }
     cout << "traversal of constructed tree\n";
     traverse(root);
-    getch();
 }
